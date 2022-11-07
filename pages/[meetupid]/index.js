@@ -45,7 +45,7 @@ export async function getStaticProps(context) {
         description: "This is a Meetup Description",
       },
     },
-    revalidate: 10,
+    revalidate: 1,
   };
 }
 
